@@ -5,3 +5,139 @@
 2024-02-28 16:58:10 INFO  AddToCartStepDefinitions:79 user adds the quantity
 2024-02-28 16:58:10 INFO  AddToCartStepDefinitions:92 user reduce the quantity
 2024-02-28 16:58:11 INFO  AddToCartStepDefinitions:118 message should be displayed
+2024-02-28 17:13:40 INFO  AddToCartStepDefinitions:28 user navigates to the home page
+2024-02-28 17:13:44 INFO  AddToCartStepDefinitions:42 user enters productwhen No One Is Watching
+2024-02-28 17:13:45 INFO  AddToCartStepDefinitions:67 user clicks on add to cart
+2024-02-28 17:13:45 INFO  AddToCartStepDefinitions:54 user clicks on Go to cart
+2024-02-28 17:13:46 INFO  AddToCartStepDefinitions:79 user adds the quantity
+2024-02-28 17:13:47 INFO  AddToCartStepDefinitions:92 user reduce the quantity
+2024-02-28 17:13:47 INFO  AddToCartStepDefinitions:118 message should be displayed
+2024-02-28 17:16:33 INFO  AddToCartStepDefinitions:28 user navigates to the home page
+2024-02-28 17:16:36 INFO  AddToCartStepDefinitions:42 user enters productwhen No One Is Watching
+2024-02-28 17:16:37 INFO  AddToCartStepDefinitions:67 user clicks on add to cart
+2024-02-28 17:16:37 INFO  AddToCartStepDefinitions:54 user clicks on Go to cart
+2024-02-28 17:16:39 INFO  AddToCartStepDefinitions:79 user adds the quantity
+2024-02-28 17:16:39 INFO  AddToCartStepDefinitions:92 user reduce the quantity
+2024-02-28 17:16:39 INFO  AddToCartStepDefinitions:118 message should be displayed
+2024-02-28 17:19:28 INFO  AddToCartStepDefinitions:28 user navigates to the home page
+2024-02-28 17:19:36 INFO  AddToCartStepDefinitions:42 user enters productwhen No One Is Watching
+2024-02-28 17:19:37 INFO  AddToCartStepDefinitions:67 user clicks on add to cart
+2024-02-28 17:19:37 INFO  AddToCartStepDefinitions:54 user clicks on Go to cart
+2024-02-28 17:19:39 INFO  AddToCartStepDefinitions:79 user adds the quantity
+2024-02-28 17:19:39 INFO  AddToCartStepDefinitions:92 user reduce the quantity
+2024-02-28 17:19:39 INFO  AddToCartStepDefinitions:118 message should be displayed
+2024-02-28 17:28:55 INFO  AddToCartStepDefinitions:28 user navigates to the home page
+2024-02-28 17:28:57 INFO  AddToCartStepDefinitions:42 user enters productwhen No One Is Watching
+2024-02-28 17:28:59 INFO  AddToCartStepDefinitions:67 user clicks on add to cart
+2024-02-28 17:28:59 INFO  AddToCartStepDefinitions:54 user clicks on Go to cart
+2024-02-28 17:29:00 INFO  AddToCartStepDefinitions:79 user adds the quantity
+2024-02-28 17:29:00 INFO  AddToCartStepDefinitions:92 user reduce the quantity
+2024-02-28 17:29:01 INFO  AddToCartStepDefinitions:118 message should be displayed
+2024-02-28 17:30:24 INFO  AddToCartStepDefinitions:28 user navigates to the home page
+2024-02-28 17:30:27 INFO  AddToCartStepDefinitions:42 user enters productwhen No One Is Watching
+2024-02-28 17:30:28 INFO  AddToCartStepDefinitions:67 user clicks on add to cart
+2024-02-28 17:30:28 INFO  AddToCartStepDefinitions:54 user clicks on Go to cart
+2024-02-28 17:30:29 INFO  AddToCartStepDefinitions:79 user adds the quantity
+2024-02-28 17:30:29 INFO  AddToCartStepDefinitions:92 user reduce the quantity
+2024-02-28 17:30:30 INFO  AddToCartStepDefinitions:118 message should be displayed
+2024-02-28 17:30:31 INFO  AddAddressStepDefinitons:27 the URL bookswagon website
+2024-02-28 17:30:36 INFO  AddAddressStepDefinitons:34 User clicks myaccount
+2024-02-28 17:30:38 INFO  AddAddressStepDefinitons:39 User enters phone no
+2024-02-28 17:30:38 INFO  AddAddressStepDefinitons:45 User enters password
+2024-02-28 17:30:38 INFO  AddAddressStepDefinitons:51 the User clicks login button
+2024-02-28 17:30:39 INFO  AddAddressStepDefinitons:56 User clicks on My Address
+2024-02-28 17:30:43 INFO  AddAddressStepDefinitons:135 User clicks on remove address
+2024-02-28 17:30:47 INFO  AddAddressStepDefinitons:141 User Confirms the removal of address
+2024-02-28 17:30:47 INFO  AddAddressStepDefinitons:62 User clicks on Add Address
+2024-02-28 17:30:47 INFO  AddAddressStepDefinitons:68 User enters the FullName
+2024-02-28 17:30:47 INFO  AddAddressStepDefinitons:74 User enters the StreetAddress
+2024-02-28 17:30:48 INFO  AddAddressStepDefinitons:80 User clicks the country dropdown
+2024-02-28 17:30:48 INFO  AddAddressStepDefinitons:86 User clicks the state dropdown
+2024-02-28 17:30:48 INFO  AddAddressStepDefinitons:92 User clicks the City dropdown
+2024-02-28 17:30:48 INFO  AddAddressStepDefinitons:98 User enters the Pin code
+2024-02-28 17:30:48 INFO  AddAddressStepDefinitons:104 User enters the Phone
+2024-02-28 17:30:49 INFO  AddAddressStepDefinitons:110 User clicks Update Option
+2024-02-28 17:30:49 INFO  AddAddressStepDefinitons:116 User clicks on Edit Address
+2024-02-28 17:30:50 INFO  AddAddressStepDefinitons:122 User modifies the StreetAddress
+2024-02-28 17:30:50 INFO  AddAddressStepDefinitons:129 User modifies the Pin code
+2024-02-28 17:30:51 INFO  AddAddressStepDefinitons:110 User clicks Update Option
+2024-02-28 17:30:52 INFO  class:27 User launches the chrome browser
+2024-02-28 17:30:54 INFO  class:35 URL:https://www.bookswagon.com/
+2024-02-28 17:30:55 INFO  class:44 User clicked on the Award winners field
+2024-02-28 17:30:55 INFO  class:158 Page has been validated
+2024-02-28 17:30:55 INFO  class:59 User clicked on the checkbox of Paper Back
+2024-02-28 17:30:55 INFO  class:171 Page has been validated
+2024-02-28 17:30:57 ERROR class:77 Exception Object :: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [baf36832dcf5b212a7468159164f691f, clickElement {id=f.99CC6EE5121695600FF3F4A5DFFC772F.d.A6D93C1C1BB4079C2B72B84518C9348B.e.257}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\vetri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50728}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50728/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (baf36832dcf5b212a7468159164f691f)] -> xpath: //a[normalize-space()='Paper Back']]
+Session ID: baf36832dcf5b212a7468159164f691f
+2024-02-28 17:30:57 ERROR class:78 End Exception :: stale element reference: stale element not found
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [baf36832dcf5b212a7468159164f691f, clickElement {id=f.99CC6EE5121695600FF3F4A5DFFC772F.d.A6D93C1C1BB4079C2B72B84518C9348B.e.257}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\vetri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50728}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50728/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (baf36832dcf5b212a7468159164f691f)] -> xpath: //a[normalize-space()='Paper Back']]
+Session ID: baf36832dcf5b212a7468159164f691f
+2024-02-28 17:30:57 INFO  class:87 User clicked on Dropdown
+2024-02-28 17:30:57 INFO  class:100 User clicked on Low to High
+2024-02-28 17:30:57 INFO  class:183 Page has been validated
+2024-02-28 17:30:58 INFO  class:27 User launches the chrome browser
+2024-02-28 17:31:00 INFO  class:35 URL:https://www.bookswagon.com/
+2024-02-28 17:31:02 INFO  class:44 User clicked on the Award winners field
+2024-02-28 17:31:02 INFO  class:87 User clicked on Dropdown
+2024-02-28 17:31:02 INFO  class:115 User clicked on High to Low
+2024-02-28 17:31:02 INFO  class:195 Page has been validated
+2024-02-28 17:31:03 INFO  class:87 User clicked on Dropdown
+2024-02-28 17:31:03 INFO  class:130 User clicked on Discount
+2024-02-28 17:31:03 ERROR class:62 Exception Object :: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84b940f22cbb99bdf921c04223c74f2f, clickElement {id=f.0AA052AE4C46A046F72CDF6D1BEAE224.d.5386E5FACF81EDA2912B8ABCE058B083.e.397}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\vetri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50771}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50771/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84b940f22cbb99bdf921c04223c74f2f)] -> xpath: //a[normalize-space()='Paper Back']]
+Session ID: 84b940f22cbb99bdf921c04223c74f2f
+2024-02-28 17:31:03 ERROR class:63 End Exception :: stale element reference: stale element not found
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [84b940f22cbb99bdf921c04223c74f2f, clickElement {id=f.0AA052AE4C46A046F72CDF6D1BEAE224.d.5386E5FACF81EDA2912B8ABCE058B083.e.397}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\vetri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50771}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50771/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (84b940f22cbb99bdf921c04223c74f2f)] -> xpath: //a[normalize-space()='Paper Back']]
+Session ID: 84b940f22cbb99bdf921c04223c74f2f
+2024-02-28 17:31:05 INFO  class:145 User clicked on product and adds to cart
+2024-02-28 17:31:05 INFO  class:207 Page has been validated
+2024-02-28 17:31:06 INFO  LoginStepDefinitions:32 click on the URL of bookswagon website
+2024-02-28 17:31:08 INFO  LoginStepDefinitions:38 user clicks on myaccount option
+2024-02-28 17:31:11 INFO  LoginStepDefinitions:117 the User press on the login button
+2024-02-28 17:31:14 INFO  LoginStepDefinitions:32 click on the URL of bookswagon website
+2024-02-28 17:31:17 INFO  LoginStepDefinitions:38 user clicks on myaccount option
+2024-02-28 17:31:19 INFO  LoginStepDefinitions:117 the User press on the login button
+2024-02-28 17:31:20 INFO  LoginStepDefinitions:32 click on the URL of bookswagon website
+2024-02-28 17:31:27 INFO  LoginStepDefinitions:38 user clicks on myaccount option
+2024-02-28 17:31:29 INFO  LoginStepDefinitions:117 the User press on the login button
+2024-02-28 17:31:31 INFO  LoginStepDefinitions:32 click on the URL of bookswagon website
+2024-02-28 17:31:34 INFO  LoginStepDefinitions:38 user clicks on myaccount option
+2024-02-28 17:31:36 INFO  LoginStepDefinitions:117 the User press on the login button
+2024-02-28 17:31:39 INFO  LoginStepDefinitions:134 User should see an error message for wrong password/wrong username
+2024-02-28 17:31:40 INFO  LoginStepDefinitions:34 User navigates to the webpage
+2024-02-28 17:31:42 INFO  LoginStepDefinitions:41 User try to login in the account
+2024-02-28 17:31:44 INFO  LoginStepDefinitions:49 Validate the login is successful
+2024-02-28 17:31:44 INFO  LoginStepDefinitions:56 User clicks on Your account
+2024-02-28 17:31:47 INFO  LoginStepDefinitions:62 User clicks on Personal Settings
+2024-02-28 17:31:48 INFO  LoginStepDefinitions:68 User add E-mail Id
+2024-02-28 17:31:48 INFO  LoginStepDefinitions:74 User add Mobile Number
+2024-02-28 17:31:48 INFO  LoginStepDefinitions:81 User Can Click Captcha for security setting

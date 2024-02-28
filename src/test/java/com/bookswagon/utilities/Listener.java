@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
+
+import org.openqa.selenium.NoSuchSessionException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -50,8 +52,7 @@ public class Listener implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult result) {
         // Log success status in ExtentReports
-    	screenshotPath = takeScreenshot("Passed" + i++);
-        System.out.println("Test passed");
+    	
     	extentTest = extentReports.createTest(result.getName());
         extentTest.log(Status.PASS, "Test Passed: " + result.getName());
     }
@@ -59,18 +60,21 @@ public class Listener implements ITestListener {
 
     @Override
     public void onTestFailure(ITestResult result) {
-        if (driver != null) {
-        	 screenshotPath = takeScreenshot("Failure" + i++);
-             System.out.println("Test failure");
-         // Attach screenshot to the report
-            extentTest = extentReports.createTest(result.getName()); // Create a new test in the report
-            extentTest.log(Status.FAIL, "Test Failed: " + result.getName());
-            extentTest.addScreenCaptureFromPath(screenshotPath);
-            
-        } else {
-            System.out.println("Driver is null. Cannot take screenshot.");
-        }
-        
+    	if (driver != null) {
+            try {
+                screenshotPath = takeScreenshot("Failure" + i++);
+                System.out.println("Test failure");
+
+                // Attach screenshot to the report
+                extentTest = extentReports.createTest(result.getName());
+                extentTest.log(Status.FAIL, "Test Failed: " + result.getName());
+                extentTest.addScreenCaptureFromPath(screenshotPath);
+            } catch (NoSuchSessionException e) {
+                System.out.println("Error while taking screenshot: " + e.getMessage());
+            }
+    	}else {
+    		System.out.println("Driver is null could not take screenshot");
+    	}
        
     }
 
