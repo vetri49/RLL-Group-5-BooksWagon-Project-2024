@@ -1,0 +1,7 @@
+2024-02-28 16:57:50 INFO  AddToCartStepDefinitions:28 user navigates to the home page
+2024-02-28 16:58:07 INFO  AddToCartStepDefinitions:42 user enters productwhen No One Is Watching
+2024-02-28 16:58:09 INFO  AddToCartStepDefinitions:67 user clicks on add to cart
+2024-02-28 16:58:09 INFO  AddToCartStepDefinitions:54 user clicks on Go to cart
+2024-02-28 16:58:10 INFO  AddToCartStepDefinitions:79 user adds the quantity
+2024-02-28 16:58:10 INFO  AddToCartStepDefinitions:92 user reduce the quantity
+2024-02-28 16:58:11 INFO  AddToCartStepDefinitions:118 message should be displayed

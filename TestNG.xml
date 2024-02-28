@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<listeners>
+<listener class-name="com.bookswagon.utilities.MyListener"/>
+</listeners>
+<test name="Listeners_program">
+<classes>
+<class name="com.bookswagon.runner.TestRunner"></class>
+</classes>
+</test>
+</suite>
