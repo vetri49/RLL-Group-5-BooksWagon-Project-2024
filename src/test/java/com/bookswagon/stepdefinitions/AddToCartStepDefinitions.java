@@ -5,8 +5,12 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
+import com.bookswagon.pages.AddAddressPage;
 import com.bookswagon.pages.AddToCartPage;
+import com.bookswagon.pages.Credentials;
+import com.bookswagon.utilities.Listener;
 
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -14,13 +18,16 @@ import io.cucumber.java.en.When;
 public class AddToCartStepDefinitions {
 
 	private static final Logger logger = LogManager.getLogger(AddToCartStepDefinitions.class);
-	
+
 
 	private SharedSteps sp;
 	private AddToCartPage page;
+	
 	public AddToCartStepDefinitions(SharedSteps sp) {
 		this.sp=sp;
 		this.page=new AddToCartPage(sp.getDriver());
+	
+		
 	}
 	
 	@Given("user navigates home page")
@@ -29,6 +36,7 @@ public class AddToCartStepDefinitions {
 		
 		try {
 			page.navigateToURL("https://www.bookswagon.com/");
+			
 			
         } catch (Exception ex) {
             Assert.fail("Unable to open browser");

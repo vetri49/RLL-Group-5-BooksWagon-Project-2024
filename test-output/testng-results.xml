@@ -1,45 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results retried="6" ignored="0" total="22" passed="13" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-28T17:28:51 IST" name="Suite" finished-at="2024-02-28T17:29:01 IST" duration-ms="10011">
+  <suite started-at="2024-02-29T13:28:55 IST" name="Suite" finished-at="2024-02-29T13:42:09 IST" duration-ms="793950">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@673fdbce]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-02-28T17:28:51 IST" name="Books Wagon Testing" finished-at="2024-02-28T17:29:01 IST" duration-ms="10011">
+    <test started-at="2024-02-29T13:28:55 IST" name="Books Wagon Testing" finished-at="2024-02-29T13:42:09 IST" duration-ms="793950">
       <class name="com.bookswagon.runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.bookswagon.runner.TestRunner@673fdbce]" started-at="2024-02-28T17:28:51 IST" name="setUpClass" finished-at="2024-02-28T17:28:52 IST" duration-ms="717" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:28:55 IST" name="setUpClass" finished-at="2024-02-29T13:28:56 IST" duration-ms="548" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@63553e9f]]>
+                <![CDATA[org.testng.TestRunner@78e386a5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@673fdbce]" started-at="2024-02-28T17:28:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-28T17:29:01 IST" duration-ms="8957" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:28:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:29:20 IST" duration-ms="23738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Shopping cart functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To test the bookswagon page for shopping cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:29:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:29:48 IST" duration-ms="27739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can add/edit and remove the Address"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bookswagon Personal Settings"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:29:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:30:03 IST" duration-ms="15312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to the Award winners page and sorting operation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Award winners/sort By"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:30:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:30:29 IST" duration-ms="25207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sorting Award winners page and adding the product to cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Award winners/sort By"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:30:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:30:52 IST" duration-ms="22886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To test the functionality of Books Wagon page for login page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:30:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:31:24 IST" duration-ms="31154" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To test the functionality of Books Wagon page for login page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[invalid session id
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1ab95e66f88ad3d4b0bb543b1dcc7b60, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\vetri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50511}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50511/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1ab95e66f88ad3d4b0bb543b1dcc7b60]]>
+              <![CDATA[expected [Please enter correct password.] but found [Please enter correct Passwor]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+              <![CDATA[java.lang.AssertionError: expected [Please enter correct password.] but found [Please enter correct Passwor]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.bookswagon.pages.LoginPage.getWrongPasswordErrorMessage(LoginPage.java:64)
+at com.bookswagon.stepdefinitions.LoginStepDefinitions.the_user_should_see_an_error_message_for_wrong_password_wrong_username(LoginStepDefinitions.java:137)
+at ✽.the user should see an error message for wrong password/wrong username(file:///C:/RLL/RLL-Group-5-BooksWagon/src/test/resources/Features/Login.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:31:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:31:45 IST" duration-ms="20930" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To test the functionality of Books Wagon page for login page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Please enter correct password.] but found [Please enter correct Passwor]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Please enter correct password.] but found [Please enter correct Passwor]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.bookswagon.pages.LoginPage.getWrongPasswordErrorMessage(LoginPage.java:64)
+at com.bookswagon.stepdefinitions.LoginStepDefinitions.the_user_should_see_an_error_message_for_wrong_password_wrong_username(LoginStepDefinitions.java:137)
+at ✽.the user should see an error message for wrong password/wrong username(file:///C:/RLL/RLL-Group-5-BooksWagon/src/test/resources/Features/Login.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:31:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:32:16 IST" duration-ms="31054" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To test the functionality of Books Wagon page for login page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[no such execution context
+  (Session info: chrome=122.0.6261.95)
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1ab95e66f88ad3d4b0bb543b1dcc7b60, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\vetri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50511}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50511/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1ab95e66f88ad3d4b0bb543b1dcc7b60
+Command: [f8b94ddae8fb5a360755c998a3024afe, clickElement {id=f.3AC9F1BC18C51E1C1D2FE6EE4B7B5FFA.d.1EC364058A64C6ADDC348162263ACFF1.e.241}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\vetri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:13682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:13682/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f8b94ddae8fb5a360755c998a3024afe)] -> xpath: //a[@id='ctl00_phBody_SignIn_btnLogin']]
+Session ID: f8b94ddae8fb5a360755c998a3024afe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: no such execution context
+  (Session info: chrome=122.0.6261.95)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f8b94ddae8fb5a360755c998a3024afe, clickElement {id=f.3AC9F1BC18C51E1C1D2FE6EE4B7B5FFA.d.1EC364058A64C6ADDC348162263ACFF1.e.241}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\vetri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:13682}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:13682/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f8b94ddae8fb5a360755c998a3024afe)] -> xpath: //a[@id='ctl00_phBody_SignIn_btnLogin']]
+Session ID: f8b94ddae8fb5a360755c998a3024afe
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -52,43 +216,433 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
-at com.bookswagon.utilities.Listener.takeScreenshot(Listener.java:90)
-at com.bookswagon.utilities.Listener.onTestSuccess(Listener.java:55)
-at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
-at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:764)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at jdk.internal.reflect.GeneratedMethodAccessor70.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy44.click(Unknown Source)
+at com.bookswagon.pages.LoginPage.ClickOnLoginButton(LoginPage.java:56)
+at com.bookswagon.stepdefinitions.LoginStepDefinitions.the_user_press_on_the_login_button(LoginStepDefinitions.java:119)
+at ✽.the User press on the login button(file:///C:/RLL/RLL-Group-5-BooksWagon/src/test/resources/Features/Login.feature:16)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.bookswagon.runner.TestRunner@673fdbce]" started-at="2024-02-28T17:29:01 IST" name="tearDownClass" finished-at="2024-02-28T17:29:01 IST" duration-ms="94" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:32:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:33:12 IST" duration-ms="55181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can be able to update the personal settings"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bookswagon Personal Settings"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:33:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:34:07 IST" duration-ms="53801" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can not be able update the personal settings without filling mandatory deatils"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bookswagon Personal Settings"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.bookswagon.stepdefinitions.PersonalSettingStepdefinition.user_can_not_update_the_details(PersonalSettingStepdefinition.java:111)
+at ✽.User can not update the details(file:///C:/RLL/RLL-Group-5-BooksWagon/src/test/resources/Features/PersonalSettings.feature:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:34:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:35:02 IST" duration-ms="55724" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can not be able update the personal settings without filling mandatory deatils"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bookswagon Personal Settings"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.bookswagon.stepdefinitions.PersonalSettingStepdefinition.user_can_not_update_the_details(PersonalSettingStepdefinition.java:111)
+at ✽.User can not update the details(file:///C:/RLL/RLL-Group-5-BooksWagon/src/test/resources/Features/PersonalSettings.feature:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:35:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:35:58 IST" duration-ms="55338" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can not be able update the personal settings without filling mandatory deatils"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Bookswagon Personal Settings"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.bookswagon.stepdefinitions.PersonalSettingStepdefinition.user_can_not_update_the_details(PersonalSettingStepdefinition.java:111)
+at ✽.User can not update the details(file:///C:/RLL/RLL-Group-5-BooksWagon/src/test/resources/Features/PersonalSettings.feature:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:35:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:37:19 IST" duration-ms="81047" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["to test the Login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["to test the Books Wagon for register page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=122.0.6261.95)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0812c547b3527bbfe9daef1f940405e, sendKeysToElement {id=f.4EBA1D3873A368766F7846028B2A79F6.d.A48211CED190A87D4ABD056D39B4B473.e.434, value=[Ljava.lang.CharSequence;@608c2042}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\vetri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:14054}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:14054/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a0812c547b3527bbfe9daef1f940405e)] -> xpath: //input[@id='ctl00_phBody_SignUp_txtPassword']]
+Session ID: a0812c547b3527bbfe9daef1f940405e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=122.0.6261.95)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0812c547b3527bbfe9daef1f940405e, sendKeysToElement {id=f.4EBA1D3873A368766F7846028B2A79F6.d.A48211CED190A87D4ABD056D39B4B473.e.434, value=[Ljava.lang.CharSequence;@608c2042}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\vetri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:14054}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:14054/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a0812c547b3527bbfe9daef1f940405e)] -> xpath: //input[@id='ctl00_phBody_SignUp_txtPassword']]
+Session ID: a0812c547b3527bbfe9daef1f940405e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+at jdk.internal.reflect.GeneratedMethodAccessor74.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy44.sendKeys(Unknown Source)
+at com.bookswagon.pages.RegisterPage.enterPassword(RegisterPage.java:70)
+at com.bookswagon.stepdefinitions.RegisterStepDefinition.user_enter_password_as(RegisterStepDefinition.java:69)
+at ✽.user enter password as 'Jaya@111'(file:///C:/RLL/RLL-Group-5-BooksWagon/src/test/resources/Features/Registration.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method retried="true" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:37:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:38:11 IST" duration-ms="51361" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["to test the Login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["to test the Books Wagon for register page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input type="submit" name="ctl00$phBody$SignUp$btnContinue" value="Continue" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$phBody$SignUp$btnContinue&quot;, &quot;&quot;, true, &quot;vgSignUp&quot;, &quot;&quot;, false, false))" id="ctl00_phBody_SignUp_btnContinue" class="btn btn-block border themeborder themecolor mb-2 signupcontinue mt-3"> is not clickable at point (763, 600). Other element would receive the click: <iframe title="recaptcha challenge expires in two minutes" name="c-rk0byh3nw4pr" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=en&amp;v=vj7hFxe2iNgbe-u95xTozOXW&amp;k=6LcWegclAAAAANuIZ3_JgCoh-naBjY69vaCvY2Xj" style="width: 400px; height: 580px;"></iframe>
+  (Session info: chrome=122.0.6261.95)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7071aa0451a7e08e7aecefcdf631ecb6, clickElement {id=f.8905F2AEE986EF460AB7172F563AE273.d.91DF805AE3D6E70C4E1BE11F7A2DBD75.e.228}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\vetri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:14157}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:14157/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7071aa0451a7e08e7aecefcdf631ecb6)] -> xpath: //input[@id='ctl00_phBody_SignUp_btnContinue']]
+Session ID: 7071aa0451a7e08e7aecefcdf631ecb6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" name="ctl00$phBody$SignUp$btnContinue" value="Continue" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$phBody$SignUp$btnContinue&quot;, &quot;&quot;, true, &quot;vgSignUp&quot;, &quot;&quot;, false, false))" id="ctl00_phBody_SignUp_btnContinue" class="btn btn-block border themeborder themecolor mb-2 signupcontinue mt-3"> is not clickable at point (763, 600). Other element would receive the click: <iframe title="recaptcha challenge expires in two minutes" name="c-rk0byh3nw4pr" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=en&amp;v=vj7hFxe2iNgbe-u95xTozOXW&amp;k=6LcWegclAAAAANuIZ3_JgCoh-naBjY69vaCvY2Xj" style="width: 400px; height: 580px;"></iframe>
+  (Session info: chrome=122.0.6261.95)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7071aa0451a7e08e7aecefcdf631ecb6, clickElement {id=f.8905F2AEE986EF460AB7172F563AE273.d.91DF805AE3D6E70C4E1BE11F7A2DBD75.e.228}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\vetri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:14157}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:14157/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7071aa0451a7e08e7aecefcdf631ecb6)] -> xpath: //input[@id='ctl00_phBody_SignUp_btnContinue']]
+Session ID: 7071aa0451a7e08e7aecefcdf631ecb6
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at jdk.internal.reflect.GeneratedMethodAccessor70.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy44.click(Unknown Source)
+at com.bookswagon.pages.RegisterPage.clickContinueButton(RegisterPage.java:65)
+at com.bookswagon.stepdefinitions.RegisterStepDefinition.user_clicks_on_continue_button(RegisterStepDefinition.java:63)
+at ✽.user clicks on continue button(file:///C:/RLL/RLL-Group-5-BooksWagon/src/test/resources/Features/Registration.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:38:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:39:32 IST" duration-ms="81494" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["to test the Login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["to test the Books Wagon for register page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=122.0.6261.95)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d0c43d070f66b065410417212b2920d, sendKeysToElement {id=f.85C3CC53CA8AAF3882BBDA098C7F673C.d.DCD400381AB6F0FEE985B4609178A086.e.413, value=[Ljava.lang.CharSequence;@5a5b394}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\vetri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:14241}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:14241/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0d0c43d070f66b065410417212b2920d)] -> xpath: //input[@id='ctl00_phBody_SignUp_txtPassword']]
+Session ID: 0d0c43d070f66b065410417212b2920d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=122.0.6261.95)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d0c43d070f66b065410417212b2920d, sendKeysToElement {id=f.85C3CC53CA8AAF3882BBDA098C7F673C.d.DCD400381AB6F0FEE985B4609178A086.e.413, value=[Ljava.lang.CharSequence;@5a5b394}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\vetri\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:14241}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:14241/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0d0c43d070f66b065410417212b2920d)] -> xpath: //input[@id='ctl00_phBody_SignUp_txtPassword']]
+Session ID: 0d0c43d070f66b065410417212b2920d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+at jdk.internal.reflect.GeneratedMethodAccessor74.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy44.sendKeys(Unknown Source)
+at com.bookswagon.pages.RegisterPage.enterPassword(RegisterPage.java:70)
+at com.bookswagon.stepdefinitions.RegisterStepDefinition.user_enter_password_as(RegisterStepDefinition.java:69)
+at ✽.user enter password as 'Jaya@111'(file:///C:/RLL/RLL-Group-5-BooksWagon/src/test/resources/Features/Registration.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:39:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:39:55 IST" duration-ms="21510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Requesting a book which is unavailable one"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the functionality of requesting book"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:39:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:40:16 IST" duration-ms="21093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Requesting a book with invalid ISBN13 number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the functionality of requesting book"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:40:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:40:36 IST" duration-ms="19171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Requesting a book with invalid ISBN13 number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the functionality of requesting book"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:40:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:40:56 IST" duration-ms="20421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Requesting a book with invalid ISBN13 number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the functionality of requesting book"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:40:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:41:12 IST" duration-ms="15074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Seaching the book on the bookSite"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search the book on the search bar"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:41:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:41:32 IST" duration-ms="19676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Seaching the book on the bookSite"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search the book on the search bar"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:41:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-29T13:42:08 IST" duration-ms="35770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["to test the My Wishlist page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["to test the Books Wagon page on chrome browser"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.bookswagon.runner.TestRunner@7fd50002]" started-at="2024-02-29T13:42:09 IST" name="tearDownClass" finished-at="2024-02-29T13:42:09 IST" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

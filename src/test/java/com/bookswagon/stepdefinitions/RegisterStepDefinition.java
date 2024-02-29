@@ -3,8 +3,11 @@ package com.bookswagon.stepdefinitions;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.bookswagon.pages.AddToCartPage;
 import com.bookswagon.pages.RegisterPage;
+import com.bookswagon.utilities.Listener;
 
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -16,10 +19,12 @@ public class RegisterStepDefinition {
 	
 	private static final Logger logger = LogManager.getLogger(LoginStepDefinitions.class);
 	
+	
 	public RegisterStepDefinition(SharedSteps sp) {
-		super();
-		this.sp = sp;
-		this.page = new RegisterPage(sp.getDriver());
+		this.sp=sp;
+		this.page=new RegisterPage(sp.getDriver());
+		
+		
 	}
 	@Given("hit the URL of bookswagon website")
 	public void hit_the_url_of_bookswagon_website() {

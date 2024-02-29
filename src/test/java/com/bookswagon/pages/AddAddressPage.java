@@ -1,5 +1,7 @@
 package com.bookswagon.pages;
 
+import static org.testng.Assert.assertTrue;
+
 import java.time.Duration;
 
 
@@ -13,7 +15,8 @@ import org.openqa.selenium.support.PageFactory;
 public class AddAddressPage {
 
 	    WebDriver driver;
-
+         @FindBy(xpath="//*[@id=\"site-wrapper\"]/div/div/div/div/div/div[2]/div[1]/div[2]")
+         WebElement address;
 	    @FindBy(xpath = "//*[@id=\"aspnetForm\"]/header/div[1]/div/div[3]/ul/li[1]/a/span[1]/img")
 	    WebElement myaccount;
 
@@ -154,6 +157,9 @@ public class AddAddressPage {
 	    {
 	    	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	        save.click();
+	    }
+	    public void assertValidate() {
+	    	assertTrue(address.isDisplayed());
 	    }
 
 	    public void clickEditAddress() {

@@ -6,7 +6,10 @@ import org.openqa.selenium.WebDriver;
 
 import com.bookswagon.pages.Credentials;
 import com.bookswagon.pages.MyWishListPage;
+import com.bookswagon.pages.PersonalSettingsPage;
+import com.bookswagon.utilities.Listener;
 
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -22,9 +25,8 @@ public class WishListStepDefinitions {
 	Credentials cred;
 	public WishListStepDefinitions(SharedSteps sp) {
 		this.sp=sp;
-		lp=new MyWishListPage(sp.getDriver());
-		cred=new Credentials();
-		
+		this.lp=new MyWishListPage(sp.getDriver());
+		this.cred=new Credentials();
 	}
 	
 	@Given("the URL of bookswagon website")

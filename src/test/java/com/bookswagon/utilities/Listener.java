@@ -1,43 +1,49 @@
 package com.bookswagon.utilities;
 
 import java.io.File;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
 
-import org.openqa.selenium.NoSuchSessionException;
+
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
+
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
+import io.cucumber.java.Scenario;
 
 public class Listener implements ITestListener {
     public static WebDriver driver;
-    private int i = 1;
+    int i=100;
     private ExtentReports extentReports;
     private ExtentTest extentTest;
-    private AssertionError assertionError;
-    String value=" ";
+    String name;
     String screenshotPath;
     
-    public static void setDriver(WebDriver driver2) {
+       public static void setDriver(WebDriver driver2) {
     	driver=driver2;
     }
+    
+    
     @Override
     public void onStart(ITestContext context) {
         // Initialize ExtentReports
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extent-report.html");
         extentReports = new ExtentReports();
         extentReports.attachReporter(htmlReporter);
+       
+       
         extentReports.setSystemInfo("OS", System.getProperty("os.name"));
         extentReports.setSystemInfo("Java Version", System.getProperty("java.version"));
         extentReports.setSystemInfo("Host Name", System.getProperty("user.name"));
@@ -52,26 +58,26 @@ public class Listener implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult result) {
         // Log success status in ExtentReports
-    	
-    	extentTest = extentReports.createTest(result.getName());
-        extentTest.log(Status.PASS, "Test Passed: " + result.getName());
+    	name=result.getName()+i++;
+    	extentTest=extentReports.createTest(name);
+        extentTest.log(Status.PASS, "Test Passed: " + name+i++);
+        driver.quit();
     }
     
 
     @Override
     public void onTestFailure(ITestResult result) {
     	if (driver != null) {
-            try {
-                screenshotPath = takeScreenshot("Failure" + i++);
+    		 
+               
+                screenshotPath = takeScreenshot(name+"_"+i++);
                 System.out.println("Test failure");
-
-                // Attach screenshot to the report
-                extentTest = extentReports.createTest(result.getName());
-                extentTest.log(Status.FAIL, "Test Failed: " + result.getName());
+               
+                name=result.getName()+i++;
+            	extentTest=extentReports.createTest(name);
+                extentTest.log(Status.FAIL, "Test Failed: " + name);
                 extentTest.addScreenCaptureFromPath(screenshotPath);
-            } catch (NoSuchSessionException e) {
-                System.out.println("Error while taking screenshot: " + e.getMessage());
-            }
+               driver.quit();
     	}else {
     		System.out.println("Driver is null could not take screenshot");
     	}
@@ -106,13 +112,9 @@ public class Listener implements ITestListener {
         return fileName;
     }
     
-    public void take() {
-    	if(value.equals("takeScreenshot")) {
-    		
-
-            
-    	}
+    
+    	
     }
 
 
-}
+

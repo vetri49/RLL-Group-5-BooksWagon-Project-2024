@@ -5,9 +5,12 @@ import static org.testng.Assert.assertTrue;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.bookswagon.pages.AddAddressPage;
 import com.bookswagon.pages.Credentials;
 import com.bookswagon.pages.PersonalSettingsPage;
+import com.bookswagon.utilities.Listener;
 
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -19,11 +22,10 @@ public class PersonalSettingStepdefinition {
 	private String URL="https://www.bookswagon.com";
 	private static final Logger logger = LogManager.getLogger(LoginStepDefinitions.class);
 	
-	public PersonalSettingStepdefinition(SharedSteps ss,Credentials cred) {
-		this.ss=ss;
-		this.Spage=new PersonalSettingsPage(ss.getDriver());
-		this.cred=cred;
-		
+	public PersonalSettingStepdefinition(SharedSteps sp) {
+		this.ss=sp;
+		this.Spage=new PersonalSettingsPage(sp.getDriver());
+		this.cred=new Credentials();
 	}
 	
 	
@@ -105,12 +107,8 @@ public class PersonalSettingStepdefinition {
 	@Then("User can not update the details")
 	public void user_can_not_update_the_details() {
 		logger.info("User can not update the details");
-		try {
+		
 	    assertTrue(false);
-		}catch(AssertionError e) {
-			e.printStackTrace();
-			logger.error("Assertion error::"+e.getLocalizedMessage());
-		}
+		
 	}
-
 }

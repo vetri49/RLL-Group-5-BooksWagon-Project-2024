@@ -1,7 +1,8 @@
 package com.bookswagon.stepdefinitions;
 
-import static org.testng.Assert.assertEquals;
+
 import org.apache.poi.ss.usermodel.*;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 
@@ -21,9 +22,11 @@ public class LoginStepDefinitions {
 	WebDriver driver;
 	LoginPage loginPage;
 	SharedSteps sp;
+
 	public LoginStepDefinitions(SharedSteps sp) {
 		this.sp=sp;
 		this.loginPage=new LoginPage(sp.getDriver());
+
 	}
 
 
@@ -82,8 +85,6 @@ public class LoginStepDefinitions {
 	    String excelFilePath = "C:\\Practice Excerise\\RLL-Group-5-BooksWagon\\src\\test\\resources\\LoginData.xlsx";
 	    String sheetName = "TestData";
 
-	    int rowCount =getRowCount(excelFilePath, sheetName);
-
 	    // Assuming there is only one set of invalid credentials in this example
 	    int rowNumber = 3;
 
@@ -132,14 +133,9 @@ public class LoginStepDefinitions {
 	@Then("the user should see an error message for wrong password\\/wrong username")
 	public void the_user_should_see_an_error_message_for_wrong_password_wrong_username() {
 		logger.info("User should see an error message for wrong password/wrong username");
-		try {
+		
 		loginPage.getWrongPasswordErrorMessage();
-		}catch(AssertionError e){
-			e.printStackTrace();
-			logger.error("Assertion error::"+e.getLocalizedMessage());
-		}
-		    
-		    
+		   
 	}
 	
 	private String readFromExcel(String filePath, String sheetName, int rowNumber, String columnName) {

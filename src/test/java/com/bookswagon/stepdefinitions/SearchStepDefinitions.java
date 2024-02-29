@@ -1,10 +1,10 @@
 package com.bookswagon.stepdefinitions;
 
+
 import org.apache.logging.log4j.LogManager;
 
 
 import org.apache.logging.log4j.Logger;
-
 
 import com.bookswagon.pages.SearchPage;
 
@@ -19,11 +19,12 @@ public class SearchStepDefinitions {
 	SharedSteps sp;
 	SearchPage page;
 
-	
+
 	public SearchStepDefinitions(SharedSteps sp) {
-		super();
-		this.sp = sp;
-		this.page = new SearchPage(sp.getDriver());
+		this.sp=sp;
+		this.page=new SearchPage(sp.getDriver());
+
+		
 	}
 
 	@Given("user navigates to the book website")
@@ -35,11 +36,12 @@ public class SearchStepDefinitions {
 
 	@When("user clicks on search bar and enter the {string}")
 	public void user_clicks_on_search_bar_and_enter_the(String title) {
+		 
 	    logger.info("user clicks on search bar and enter the "+title);
 	    page.search(title);
-	}
-	
-	
+	    
+		    }
+
 	
 	@When("user click on search button")
 	public void user_click_on_button() {
@@ -73,5 +75,4 @@ public class SearchStepDefinitions {
 		page.viewListOfBooks();
 	}
 	
-
 }

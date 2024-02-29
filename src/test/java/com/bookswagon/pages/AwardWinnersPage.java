@@ -51,13 +51,13 @@ public class AwardWinnersPage {
 			driver.get(url);
 		}
 		
-		//Action Methods
+		
 		public void ClickAwardWinnersField() {
 			AwardWinnersField.click();
 		}
 		
 		public void ClickCheckboxPaperBack() {
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			
 			CheckboxPaperBack.click();
 		}
 		
@@ -66,17 +66,17 @@ public class AwardWinnersPage {
 		}
 		
 		public void ClickLowToHigh() {
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			
 			LowToHigh.click();
 		}
 		
 		public void ClickHighToLow() {
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			
 			HighToLow.click();
 		}
 		
 		public void ClickDiscount() {
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			
 			Discount.click();
 		}
 		
@@ -85,24 +85,22 @@ public class AwardWinnersPage {
 		}
 		
 		public void ClickProduct() {
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			
 			Product.click();
 		}
 		
 		public void ClickAddToCart() {
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			
 			
 			AddToCart.click();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		}
-		public void validateaddtoCart() {
-			
-		}
+		
 
 		public void ValidatePage() {
 			String title= "Online BookStore India, Buy Books Online, Buy Book Online India - Bookswagon.com";
 		    assertEquals(driver.getTitle(), title);
-		    //Assert.assertTrue(false);
+		   
 		}
 		
 		public void ValidateHighToLow(String title1) {

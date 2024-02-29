@@ -4,9 +4,11 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.bookswagon.pages.Credentials;
+import com.bookswagon.pages.PersonalSettingsPage;
 import com.bookswagon.pages.RequestBookPage;
+import com.bookswagon.utilities.Listener;
 
-
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -19,10 +21,12 @@ public class RequestBookStepDefinitions {
 	private static final Logger logger = LogManager.getLogger(LoginStepDefinitions.class);
 	
 	
+	private Scenario scenario;
 	public RequestBookStepDefinitions(SharedSteps sp) {
-		super();
-		this.sp = sp;
-		this.page = new RequestBookPage(sp.getDriver());
+		this.sp=sp;
+		this.page=new RequestBookPage(sp.getDriver());
+//		scenario=sc;
+//		Listener.SetScenario(scenario);
 		this.cred=new Credentials();
 	}
 

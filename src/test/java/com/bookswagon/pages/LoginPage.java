@@ -58,13 +58,11 @@ public class LoginPage {
 
     public void getWrongPasswordErrorMessage() {
     	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-    	String expectedErrorMessage = "Please enter correct Password.";
+    	String expectedErrorMessage = "Please enter correct Passwor";
 		String actualErrorMessage =wrongPasswordErrorMessage.getText();
-		try {
+		
 		        assertEquals(expectedErrorMessage, actualErrorMessage);
-		}catch(AssertionError e) {
-			e.printStackTrace();
-		}
+		
     }
     
   

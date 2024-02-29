@@ -5,7 +5,10 @@ import org.apache.logging.log4j.Logger;
 
 import com.bookswagon.pages.AddAddressPage;
 import com.bookswagon.pages.Credentials;
+import com.bookswagon.pages.LoginPage;
+import com.bookswagon.utilities.Listener;
 
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -16,6 +19,7 @@ public class AddAddressStepDefinitons {
 	private SharedSteps sp;
 	private AddAddressPage page;
 	
+
 	public AddAddressStepDefinitons(SharedSteps sp) {
 		this.sp=sp;
 		this.page=new AddAddressPage(sp.getDriver());
@@ -109,6 +113,7 @@ public class AddAddressStepDefinitons {
 	public void user_clicks_update_option() throws InterruptedException {
 		logger.info("User clicks Update Option");
 	   page.ClickUpdate();
+	   page.assertValidate();
 	}
 
 	@Then("User clicks on Edit Address")

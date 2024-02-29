@@ -4,9 +4,11 @@ package com.bookswagon.stepdefinitions;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-
+import com.bookswagon.pages.AddToCartPage;
 import com.bookswagon.pages.AwardWinnersPage;
+import com.bookswagon.utilities.Listener;
 
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -17,9 +19,12 @@ public class AwardWinnerStepDefinitons{
 	SharedSteps sp;
 	private static  Logger logger=LogManager.getLogger("AwardWinnerStepDefinitons.class");
 	
+	
 	public AwardWinnerStepDefinitons(SharedSteps sp) {
 		this.sp=sp;
 		this.page=new AwardWinnersPage(sp.getDriver());
+
+		
 	}
 	
 	@Given("User launches the chrome browser")
