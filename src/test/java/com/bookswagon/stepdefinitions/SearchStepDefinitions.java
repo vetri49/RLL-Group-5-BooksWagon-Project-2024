@@ -63,11 +63,6 @@ public class SearchStepDefinitions {
 	    
 	}
 	
-	@When("user refine your search based on shipping on the books")
-	public void user_refine_your_search_based_on_shipping_on_the_books() {
-		logger.info("I click on the shipping on the books");
-		//page.shipping();
-	}
 	
 	@Then("user see list of the books")
 	public void user_see_list_of_the_books() {

@@ -1,5 +1,7 @@
 package com.bookswagon.stepdefinitions;
 
+import static org.testng.Assert.assertTrue;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -21,12 +23,10 @@ public class RequestBookStepDefinitions {
 	private static final Logger logger = LogManager.getLogger(LoginStepDefinitions.class);
 	
 	
-	private Scenario scenario;
+	
 	public RequestBookStepDefinitions(SharedSteps sp) {
 		this.sp=sp;
 		this.page=new RequestBookPage(sp.getDriver());
-//		scenario=sc;
-//		Listener.SetScenario(scenario);
 		this.cred=new Credentials();
 	}
 
@@ -71,6 +71,10 @@ public class RequestBookStepDefinitions {
 	public void check_the_results() {
 		logger.info("check the results");
 	    page.verifyResult();
+	}
+	@Then("verify the results")
+	public void verify_the_results() {
+	    assertTrue(false);
 	}
 
 	

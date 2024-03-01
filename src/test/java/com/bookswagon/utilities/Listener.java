@@ -51,7 +51,6 @@ public class Listener implements ITestListener {
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extent-report.html");
         extentReports = new ExtentReports();
         extentReports.attachReporter(htmlReporter);
-        
         extentReports.setSystemInfo("OS", System.getProperty("os.name"));
         extentReports.setSystemInfo("Java Version", System.getProperty("java.version"));
         extentReports.setSystemInfo("Host Name", System.getProperty("user.name"));

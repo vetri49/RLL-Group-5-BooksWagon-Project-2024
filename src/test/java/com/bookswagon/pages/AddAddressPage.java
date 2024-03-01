@@ -172,7 +172,7 @@ public class AddAddressPage {
 	    	
 	        removeAddressLink.click();
 	        Thread.sleep(3000);
-	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	       
 	    }
 	    public void modifyStreetAddress(String address) {
 	    	StreetAddress.clear();

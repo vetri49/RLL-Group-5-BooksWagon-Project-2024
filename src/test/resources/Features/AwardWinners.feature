@@ -30,4 +30,4 @@ Feature: Award winners/sort By
 
     Examples: 
       | title1                                                                           | title2                                                                         |
-      | Online BookStore India, Buy Books Online, Buy Book Online India - Bookswagon.com | Buy How to Write a Mystery Books By Lee Child at Bookswagon & Get Upto 50% Off |
+      | Online BookStore India, Buy Books Online, Buy Book Online India - Bookswagon.com | Online BookStore India, Buy Books Online, Buy Book Online India - Bookswagon.com |

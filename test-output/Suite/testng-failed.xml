@@ -10,8 +10,8 @@
       <class name="com.bookswagon.runner.TestRunner">
         <methods>
           <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="3 5 7 10 11 12"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="5 7 8"/>
         </methods>
       </class> <!-- com.bookswagon.runner.TestRunner -->
     </classes>

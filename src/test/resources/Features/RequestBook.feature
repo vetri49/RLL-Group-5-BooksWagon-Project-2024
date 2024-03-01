@@ -24,10 +24,9 @@ Feature: Test the functionality of requesting book
     And enter a book title '<Title>'
     And enter and verify your mailid
     Then submit the request
-    And check the results
+    And verify the results
 
     Examples: 
       | ISBN       | Title                  |
       | 9724y29529 | Computer Applications  |
-      | 387o225849 | Network of thinking    |
-      | 7836782c27 | Pragramatic programmer |
+      

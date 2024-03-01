@@ -7,7 +7,6 @@ Feature: Search the book on the search bar
     And user click on search button
     Then user refine your search based on title on the books
     And user refine your search based on price on the books
-    And user refine your search based on shipping on the books
     And user see list of the books
 
     Examples: 

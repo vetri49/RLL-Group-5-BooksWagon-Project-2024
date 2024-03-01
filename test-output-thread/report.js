@@ -1,4 +1,0 @@
-$(document).ready(function() {
-CucumberHTML.timelineItems.pushArray([{"id":"179cd9dd-87ca-4c6b-9179-8630e0d55933","feature":"Bookswagon Personal Settings","scenario":"User can not be able update the personal settings without filling mandatory deatils","start":1708675154051,"group":1,"content":"","tags":"","end":1708675202343,"className":"failed"},{"id":"03465ba2-d6e3-46bc-ae9b-9ac5e240ffc6","feature":"Bookswagon Personal Settings","scenario":"User can be able to update the personal settings","start":1708675060935,"group":1,"content":"","tags":"","end":1708675154004,"className":"passed"}]);
-CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[main,5,main]"}]);
-});

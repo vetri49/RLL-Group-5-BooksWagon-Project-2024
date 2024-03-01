@@ -91,7 +91,7 @@ public class ExcelUtility {
         data.put("8", new String[] {"Vetriselvan", "NSuk029382i","pass" }); 
         data.put("9", new String[] {"Prajwal Diwakar", "NSukoh837i","pass" }); 
         
-    	//writeTestData(data);
+    	writeTestData(data);
        
         Map<String, String[]> testData = readTestData();
         System.out.println("Test Data from Excel:");
