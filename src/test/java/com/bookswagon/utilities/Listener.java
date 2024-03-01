@@ -2,6 +2,7 @@ package com.bookswagon.utilities;
 
 import java.io.File;
 
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -21,7 +22,7 @@ import com.aventstack.extentreports.Status;
 
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-import io.cucumber.java.Scenario;
+
 
 public class Listener implements ITestListener {
     public static WebDriver driver;
@@ -35,6 +36,14 @@ public class Listener implements ITestListener {
     	driver=driver2;
     }
     
+       @Override
+       public void onTestSkipped(ITestResult result) {
+   	   
+   	   extentTest = extentReports.createTest(result.getName()); 
+          extentTest.log(Status.SKIP, "Test skipped: " + result.getName());
+   		driver.quit();
+   		
+   	}
     
     @Override
     public void onStart(ITestContext context) {
@@ -42,8 +51,7 @@ public class Listener implements ITestListener {
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extent-report.html");
         extentReports = new ExtentReports();
         extentReports.attachReporter(htmlReporter);
-       
-       
+        
         extentReports.setSystemInfo("OS", System.getProperty("os.name"));
         extentReports.setSystemInfo("Java Version", System.getProperty("java.version"));
         extentReports.setSystemInfo("Host Name", System.getProperty("user.name"));
@@ -84,6 +92,7 @@ public class Listener implements ITestListener {
        
     }
 
+    
     public String takeScreenshot(String fileName) {
         if (driver == null) {
             System.out.println("Driver is null. Cannot take screenshot.");
